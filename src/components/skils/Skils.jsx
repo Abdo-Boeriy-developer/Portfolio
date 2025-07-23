@@ -11,8 +11,8 @@ import Javascript from "../../assets/javascript.svg";
 import nextJs from "../../assets/next.png";
 import Nodejs from "../../assets/nodejs.svg";
 import Reactjs from "../../assets/react.svg";
-import Tailwindcss from "../../assets/tailwindcss.svg";
-
+import bootstrap from "../../assets/bootstrap.jpg";
+import mongoDb from "../../assets/mongodb.svg";
 const SkillsData = [
   {
     id: 1,
@@ -21,60 +21,66 @@ const SkillsData = [
     disc: "User Interface",
   },
   {
-    id: 1,
+    id: 2,
     image: CSS,
     title: "css",
     disc: "User Interface",
   },
   {
-    id: 1,
+    id: 3,
+    image: bootstrap,
+    title: "bootstrap",
+    disc: "User Interface",
+  },
+  {
+    id: 4,
     image: tw,
     title: "Tailwdin Css",
     disc: "User Interface",
   },
   {
-    id: 2,
+    id: 5,
     image: Javascript,
     title: "javaScript",
     disc: "Interaction",
   },
   {
-    id: 2,
+    id: 6,
     image: ts,
     title: "TypeScript",
     disc: "Interaction",
   },
   {
-    id: 3,
+    id: 7,
     image: Reactjs,
     title: "React",
     disc: "Framework",
   },
   {
-    id: 7,
+    id: 8,
     image: nextJs,
     title: "NextJs",
     disc: "Next Framework",
   },
   {
-    id: 5,
+    id: 9,
     image: Nodejs,
     title: "NodeJS",
     disc: "Web Server",
   },
 
   {
-    id: 6,
+    id: 10,
     image: Figma,
     title: "Figma",
     disc: "Design tool",
   },
-  // {
-  //   id: 8,
-  //   // image: Mongodb,
-  //   title: "MongoDB",
-  //   disc: "Database",
-  // },
+  {
+    id: 11,
+    image: mongoDb,
+    title: "MongoDB",
+    disc: "Database",
+  },
 ];
 
 function Skils() {

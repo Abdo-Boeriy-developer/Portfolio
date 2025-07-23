@@ -99,7 +99,7 @@ function Projects() {
             </div>
             <h3>{title}</h3>
             <p className="skiles">
-              Skiles
+              Technologies
               <marquee scrollamount="4" direction="left">
                 {skiles}
               </marquee>
