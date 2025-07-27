@@ -10,17 +10,25 @@ function Home() {
     <>
       <div className="home">
         <div className="container home_container">
-          <h4>Hello i'm</h4>
-          <h1>Abdelrahman Boeriy</h1>
+          <h4 className="dark:text-gray-500">Hello i'm</h4>
+          <h1 className="dark:text-gray-400">Abdelrahman Boeriy</h1>
 
-          <h4 className="text-light">Frontend Developer</h4>
+          <h4 className="dark:text-gray-500">Frontend Developer</h4>
 
           <div className="btns">
-            <a href="" download={CV} className="btn">
+            <a
+              href=""
+              download={CV}
+              className="btn btn-primary bg-[#4db5ff] text-[#1f1f38] dark:bg-gray-900 dark:text-gray-500"
+            >
               {" "}
               Download CV{" "}
             </a>
-            <a href={CV} target="_blank" className="btn btn-primary">
+            <a
+              href={CV}
+              target="_blank"
+              className="btn btn-primary bg-[#4db5ff] text-[#1f1f38] dark:bg-gray-900 dark:text-gray-500"
+            >
               Open CV
             </a>
           </div>

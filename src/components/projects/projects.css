@@ -7,7 +7,7 @@
 .projects_containre .portfolio_item {
   width: 31%;
   margin-bottom: 50px;
-  background-color: var(--color-bg-variant);
+  /* background-color: var(--color-bg-variant); */
   padding: 20px;
   border-radius: 20px;
   border: 1px solid transparent;

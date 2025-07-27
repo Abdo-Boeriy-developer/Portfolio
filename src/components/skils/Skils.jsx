@@ -93,13 +93,16 @@ function Skils() {
 
       <div className="container container_Skills">
         {SkillsData.map(({ id, image, title, disc }) => (
-          <article key={id} className="card_skills">
+          <article
+            key={id}
+            className="card_skills border-[#2c2c6c] border-1 border-solid dark:border-gray-900"
+          >
             <div className="icon">
               <img src={image} alt="" />
             </div>
 
             <div className="content">
-              <h4>{title}</h4>
+              <h4 className="dark:text-gray-300">{title}</h4>
               <p className="text-light">{disc}</p>
             </div>
           </article>

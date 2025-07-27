@@ -12,7 +12,7 @@ function Services() {
         <h2>Services</h2>
 
         <div className="container container_services">
-          <article className="card">
+          <article className="card bg-[#2c2c6c] dark:bg-gray-900">
             <MdDesignServices className="icon" />
             <h3>Web Design</h3>
             <p className="text-light">
@@ -21,7 +21,7 @@ function Services() {
             </p>
           </article>
 
-          <article className="card">
+          <article className="card bg-[#2c2c6c] dark:bg-gray-900">
             <IoIosRocket className="icon" />
 
             <h3>Fast Perfromance</h3>
@@ -31,7 +31,7 @@ function Services() {
             </p>
           </article>
 
-          <article className="card">
+          <article className="card bg-[#2c2c6c] dark:bg-gray-900">
             <FaCode className="icon" />
 
             <h3>Clean Code</h3>

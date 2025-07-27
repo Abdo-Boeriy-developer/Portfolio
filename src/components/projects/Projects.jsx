@@ -93,7 +93,10 @@ function Projects() {
 
       <div className="container projects_containre">
         {portfolioData.map(({ id, image, title, github, demo, skiles }) => (
-          <article key={id} className="portfolio_item">
+          <article
+            key={id}
+            className="portfolio_item bg-[#2c2c6c] dark:bg-gray-900"
+          >
             <div className="portfolio_item_img">
               <img src={image} alt="" />
             </div>

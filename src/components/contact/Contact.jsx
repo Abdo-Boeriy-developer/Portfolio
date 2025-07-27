@@ -53,9 +53,12 @@ function Contact() {
       </div>
 
       <div className="container contact_container">
-        <div className="contact_options">
+        <div className="contact_options ">
           {ContactData.map(({ id, icon, title, info, link }) => (
-            <article key={id} className="contact_option">
+            <article
+              key={id}
+              className="contact_option bg-[#2c2c6c] dark:bg-gray-900"
+            >
               {icon}
               <h4>{title}</h4>
               <h5>{info}</h5>
@@ -67,15 +70,28 @@ function Contact() {
         </div>
 
         <form ref={form} onSubmit={sendEmail} action="">
-          <input type="text" placeholder="Full Name" name="name" />
-          <input type="email" placeholder="Your EMail" name="email" />
+          <input
+            type="text"
+            placeholder="Full Name"
+            name="name"
+            className="border-[#4db5ff] border-1 border-solid dark:border-gray-900 "
+          />
+          <input
+            type="email"
+            placeholder="Your EMail"
+            name="email"
+            className="border-[#4db5ff] border-1 border-solid dark:border-gray-900 "
+          />
           <textarea
             rows={10}
             name="message"
             id=""
             placeholder="Enter Your Message"
+            className="border-[#4db5ff] border-1 border-solid dark:border-gray-900 "
           ></textarea>
-          <button className="btn btn-primary">Send Message</button>
+          <button className="btn btn-primary bg-[#4db5ff] text-[#1f1f38] dark:bg-gray-900 dark:text-gray-500 ">
+            Send Message
+          </button>
         </form>
       </div>
     </section>

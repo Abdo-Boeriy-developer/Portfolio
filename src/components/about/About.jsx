@@ -23,19 +23,19 @@ function About() {
 
           <div className="about_content">
             <div className="about_cards">
-              <div className="about_card">
+              <div className="about_card bg-[#2c2c6c] dark:bg-gray-900 ">
                 <FaAward className="about_icon" />
                 <h5>Experience</h5>
                 <small>1+ years working</small>
               </div>
 
-              <div className="about_card">
+              <div className="about_card bg-[#2c2c6c] dark:bg-gray-900">
                 <FiUsers className="about_icon" />
                 <h5>Clients</h5>
                 <small>100+ worldwide</small>
               </div>
 
-              <div className="about_card">
+              <div className="about_card bg-[#2c2c6c] dark:bg-gray-900">
                 <VscFolderLibrary />
                 <h5>Projects</h5>
                 <small>50+ Completed</small>
