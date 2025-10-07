@@ -1,9 +1,10 @@
 import React from "react";
 import "./home.css";
 import Me from "../../assets/me.png";
-import CV from "../../assets/CV_ABDO.pdf";
+// import CV from "../../assets/CV_ABDO.pdf";
+import CV from "../../assets/CV_AbdelrahmanBoeriy.pdf";
 import HomeSocials from "./HomeSocials";
-import Abdo from "../../assets/8384790a-0d9b-443e-852c-ac60e11803ce.jpg";
+// import Abdo from "../../assets/8384790a-0d9b-443e-852c-ac60e11803ce.jpg";
 
 function Home() {
   return (
