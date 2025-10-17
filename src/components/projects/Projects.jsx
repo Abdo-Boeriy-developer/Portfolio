@@ -14,6 +14,7 @@ import thumbnail from "../../assets/thumbnail.jpg";
 import weather from "../../assets/Screenshot 2025-07-16 020744.png";
 import vr from "../../assets/vr-DiJsEw8r.png";
 import login from "../../assets/login.jpg";
+import jobPage from "../../assets/jobPage.png";
 const portfolioData = [
   {
     id: 1,
@@ -80,6 +81,15 @@ const portfolioData = [
     skiles: "Html | Css | JavaScript | LocalStorage",
     github: "https://github.com/porject6",
     demo: "https://demo6.com",
+  },
+  {
+    id: 9,
+    image: jobPage,
+    title: "Job Page",
+    skiles:
+      " Next.js | TypeScript  | TailwindCss  | AOS | Next-Theme | React-icons | React-Multi-carousel | React-tilt ",
+    github: "https://github.com/Abdo-Boeriy-developer/Job_Page",
+    demo: "https://job-page-ten.vercel.app/",
   },
 ];
 
