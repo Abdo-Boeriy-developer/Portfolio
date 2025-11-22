@@ -15,6 +15,7 @@ import weather from "../../assets/Screenshot 2025-07-16 020744.png";
 import vr from "../../assets/vr-DiJsEw8r.png";
 import login from "../../assets/login.jpg";
 import jobPage from "../../assets/jobPage.png";
+import legant from "../../assets/Screenshot 2025-11-15 200436.png";
 const portfolioData = [
   {
     id: 1,
@@ -23,6 +24,14 @@ const portfolioData = [
     skiles: "Html | Css | BootStrap | JavaScript",
     github: "https://github.com/Abdo-Boeriy-developer/e-commerce-karma.git",
     demo: "https://abdo-boeriy-developer.github.io/e-commerce-karma/",
+  },
+  {
+    id: 9,
+    image: legant,
+    title: "3legant FullStack",
+    skiles: "Next.js | TypeScript | TailwindCss | Stripe | tools... ",
+    github: "##",
+    demo: "https://3legant-three.vercel.app/",
   },
   {
     id: 2,
