@@ -31,7 +31,7 @@ const portfolioData = [
     title: "3legant FullStack",
     skiles: "Next.js | TypeScript | TailwindCss | Stripe | tools... ",
     github: "##",
-    demo: "https://3legant-three.vercel.app/",
+    demo: "https://3legant-4bdod3v.vercel.app",
   },
   {
     id: 2,
